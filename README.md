@@ -142,3 +142,15 @@ python scripts/evaluate.py
 - added a lightweight smoke test for public imports
 - removed one remaining hard-coded external tool path in `general_audio_processing.py`
 - kept the original `train/` implementation intact for checkpoint compatibility
+
+## Paper
+[Multimodal Deep Learning Method for Real-Time Spatial Room Impulse Response Computing](https://arxiv.org/abs/2604.05545)
+
+## Citation
+```bibtex
+@article{li2026multimodal,
+  title={Multimodal Deep Learning Method for Real-Time Spatial Room Impulse Response Computing},
+  author={Li, Zhiyu and Yue, Xinwen and Zhao, Shenghui and Wang, Jing},
+  journal={arXiv preprint arXiv:2604.05545},
+  year={2026}
+}
