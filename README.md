@@ -1,4 +1,4 @@
-# A Multimodal Deep Learning Framework for Spatial Room Impulse Response Generation in VR Auralization
+# Multimodal Deep Learning Method for Real-Time Spatial Room Impulse Response Computing
 
 This repository contains the code for the ICASSP 2026 paper **Multimodal Deep Learning Method for Real-Time Spatial Room Impulse Response Computing** and the journal submission **A Multimodal Deep Learning Framework for Spatial Room Impulse Response Generation in VR Auralization**.
 
