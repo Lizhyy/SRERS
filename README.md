@@ -1,6 +1,6 @@
-# SRERS
+# A Multimodal Deep Learning Framework for Spatial Room Impulse Response Generation in VR Auralization
 
-Readable research codebase for the paper **A Multimodal Deep Learning Framework for Spatial Room Impulse Response Generation in VR Auralization**.
+This repository contains the code for the ICASSP 2026 paper **Multimodal Deep Learning Method for Real-Time Spatial Room Impulse Response Computing** and the journal submission **A Multimodal Deep Learning Framework for Spatial Room Impulse Response Generation in VR Auralization**.
 
 This repository is a cleaned and partially reorganized version of the original internal training code. The goals of this release are:
 
