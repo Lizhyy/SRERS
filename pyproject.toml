@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "srers"
+version = "0.3.0"
+description = "Readable research codebase for spatial room impulse response generation in VR auralization."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "License not specified. See LICENSE_NOTICE.md before public release."}
+authors = [{name = "SRERS authors and maintainers"}]
+dependencies = []
+
+[project.scripts]
+srers-train = "srers.cli.train:main"
+srers-evaluate = "srers.cli.evaluate:main"
+srers-build-index = "srers.cli.build_sample_index:main"
+
+[tool.setuptools]
+include-package-data = true
+py-modules = ["Config", "main", "inference", "embed_generator"]
+
+[tool.setuptools.packages.find]
+include = ["srers*", "train*", "evaluate*"]
