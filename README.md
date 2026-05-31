@@ -38,29 +38,6 @@ SRERS_git/
         └── filter_bank.npy             # Filter bank used for late-reverberation synthesis
 ```
 
-## What Is Included
-
-This minimal release includes:
-
-- The main SRERS model architecture used for the GSLR setting.
-- GSLR-only dataset loading and SRIR parameter processing.
-- Training with an explicit scene-disjoint validation split.
-- Function-level inference utilities.
-- Torch-based full SRIR synthesis.
-- Objective and spatial metric calculation functions.
-
-## What Is Not Included
-
-The following components are intentionally not included in this minimal release:
-
-- Non-GSLR dataset branches.
-- Alternative model variants such as BOX, M2R, M2P, GWA-specific branches, or other ablation-only branches.
-- Batch test-set scanning scripts.
-- The old NumPy-based `SRIR_decoder_new.py` path.
-- Dataset files and pretrained checkpoints.
-
-The code expects prepared GSLR data and checkpoints to be provided separately.
-
 ## Environment
 
 The code is developed with Python and PyTorch. A typical environment contains:
