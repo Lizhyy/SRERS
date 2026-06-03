@@ -9,9 +9,8 @@ import json
 # SRE-GCN-MGL-MLP_SRE-MHA-LoR_10%-face-reverb-4-od2_GSLR
 
 Debug = False
-Train_GPU_ID = [0]
+Train_GPU_ID = [0, 1]
 Train_Batch_size = 32
-loss_show = 3000
 num_workers = 32
 RIR_type = 'reverb-mch-wav'
 
@@ -126,7 +125,7 @@ class TRAIN():
         self.max_epoch = 150
         self.LR_decay_epoch = 1
         self.LR_decay_rate = 0.88
-        self.loss_show = loss_show
+        self.loss_show = 3000
         self.GPU_id = Train_GPU_ID
         self.num_workers = num_workers
 
