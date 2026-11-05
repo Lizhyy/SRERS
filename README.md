@@ -268,6 +268,14 @@ If you use this code or build upon SRERS, please cite the corresponding paper:
   year={2026},
   organization={IEEE}
 }
+
+@article{li2026multimodal,
+  title={A Multimodal Deep Learning Framework for Spatial Room Impulse Response Generation in VR Auralization},
+  author={Li, Zhiyu and Zhao, Xinpei and Wang, Jing and Li, Junfeng and Chen, Jingdong},
+  journal={IEEE Transactions on Audio, Speech and Language Processing},
+  year={2026},
+  publisher={IEEE}
+}
 ```
 
 Please update the BibTeX entry with the final volume, issue, pages, DOI, or arXiv information when available.
